@@ -1,10 +1,10 @@
 <script>
   $.get("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html", function(respons) {
     var file = respons;
-    alert(file);
+  }).done(function(){
     $('#editor').closest('div').innerHTML(file);
+    alert(file);
   });
-
 </script>
 <script>
   $(function(){
