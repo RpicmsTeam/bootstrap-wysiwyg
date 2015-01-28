@@ -2,8 +2,8 @@
   var file;
   $.get("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html", function(respons) {
     file = respons;
-    alert(file);
   });
+  alert(file);
 
   $('#editor').closest( "div" ).innerHTML(file);
 </script>
