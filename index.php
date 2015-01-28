@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <script src="external/jquery.hotkeys.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
-    <link href="index.css" rel="stylesheet">
-    <script src="bootstrap-wysiwyg.js"></script>
-  </head>
-  <body>
-
-<div class="container">
+<!--<div class="container">
   <div class="hero-unit">
 
   <div id="alerts"></div>
@@ -70,7 +59,7 @@
       Go ahead&hellip;
     </div>
   </div>
-</div>
+</div>-->
 <script>
   $(function(){
     function initToolbarBootstrapBindings() {
@@ -111,4 +100,3 @@
     window.prettyPrint && prettyPrint();
   });
 </script>
-</html>
