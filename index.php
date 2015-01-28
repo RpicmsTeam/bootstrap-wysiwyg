@@ -37,7 +37,7 @@
      '<strong>File upload error</strong> '+msg+' </div>').prependTo('#alerts');
   };
     initToolbarBootstrapBindings();  
-  $('#editor').wysiwyg({ fileUploadError: showErrorAlert} );
+  $('#editor').fn.wysiwyg({ fileUploadError: showErrorAlert} );
     window.prettyPrint && prettyPrint();
   });
 </script>
