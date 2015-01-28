@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
   <div class="hero-unit">
 
   <div id="alerts"></div>
@@ -56,7 +56,10 @@
     </div>
 
   </div>
-</div>
+</div>-->
+<script>
+  $('#editor').closest( "div" ).css( "background-color", "red" );
+</script>
 <script>
   $(function(){
     function initToolbarBootstrapBindings() {
