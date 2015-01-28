@@ -1,12 +1,5 @@
 <script>
-  if (window.File && window.FileReader && window.FileList && window.Blob) {
-    // Great success! All the File APIs are supported.
-  } else {
-    alert('The File APIs are not fully supported in this browser.');
-  }
-  var reader = new FileReader();
-
-  var fileContents = reader.readAsText('../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html');
+  var fileContents = System.IO.File.ReadAllLines('../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html');
   $('#editor').closest( "div" ).innerHTML(fileContents);
 </script>
 <script>
