@@ -1,6 +1,5 @@
 <script>
-  var fileContents = System.IO.File.ReadAllLines('../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html');
-  $('#editor').closest( "div" ).innerHTML(fileContents);
+  $('#editor').closest( "div" ).innerHTML(../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html);
 </script>
 <script>
   $(function(){
