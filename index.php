@@ -1,7 +1,5 @@
 <script>
   $('#toolbar').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
-</script>
-<script>
   $(function(){
     function initToolbarBootstrapBindings() {
       var fonts = ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier', 
@@ -15,7 +13,6 @@
       $('.dropdown-menu input').click(function() {return false;})
         .change(function () {$(this).parent('.dropdown-menu').siblings('.dropdown-toggle').dropdown('toggle');})
         .keydown('esc', function () {this.value='';$(this).change();});
-
       $('[data-role=magic-overlay]').each(function () { 
         var overlay = $(this), target = $(overlay.data('target')); 
         overlay.css('opacity', 0).css('position', 'absolute').offset(target.offset()).width(target.outerWidth()).height(target.outerHeight());
@@ -37,7 +34,7 @@
      '<strong>File upload error</strong> '+msg+' </div>').prependTo('#alerts');
   };
     initToolbarBootstrapBindings();  
-  $('#editor').fn.wysiwyg({ fileUploadError: showErrorAlert} );
+    $('#editor').wysiwyg({ fileUploadError: showErrorAlert} );
     window.prettyPrint && prettyPrint();
   });
 </script>
