@@ -1,4 +1,4 @@
-<!--<div class="container">
+<div class="container">
   <div class="hero-unit">
 
   <div id="alerts"></div>
@@ -55,11 +55,8 @@
       <input type="text" data-edit="inserttext" id="voiceBtn" x-webkit-speech="">
     </div>
 
-    <div id="editor">
-      Go ahead&hellip;
-    </div>
   </div>
-</div>-->
+</div>
 <script>
   $(function(){
     function initToolbarBootstrapBindings() {
