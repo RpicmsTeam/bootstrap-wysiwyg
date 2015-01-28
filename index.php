@@ -1,5 +1,9 @@
 <script>
-  $('#editor').closest( "div" ).innerHTML(../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html);
+  $.get("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html", function(respons) {
+    var file = respons;
+  });
+
+  $('#editor').closest( "div" ).innerHTML(file);
 </script>
 <script>
   $(function(){
