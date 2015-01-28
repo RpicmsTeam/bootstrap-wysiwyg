@@ -1,6 +1,7 @@
 <script>
+  var file;
   $.get("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html", function(respons) {
-    var file = respons;
+    file = respons;
     alert(file);
   });
 
