@@ -1,8 +1,5 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>
-  $('#editor').closest('div').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
-  //$('#editor').closest('div').innerHTML(file);
-
+  $('#toolbar').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
 </script>
 <script>
   $(function(){
