@@ -1,5 +1,5 @@
 <script>
-  $('#editor').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
+  $('#editor').closest('div').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
   //$('#editor').closest('div').innerHTML(file);
 
 </script>
