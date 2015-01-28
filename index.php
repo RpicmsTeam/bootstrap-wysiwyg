@@ -1,10 +1,7 @@
 <script>
-  $.get("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html", function(respons) {
-    var file = respons;
-  }).done(function(){
-    $('#editor').closest('div').innerHTML(file);
-    alert(file);
-  });
+  $('#editor').load("../../core/backend/admin/modules/modul_simple_bootstrap-wysiwyg/toolbar.html");
+  //$('#editor').closest('div').innerHTML(file);
+
 </script>
 <script>
   $(function(){
